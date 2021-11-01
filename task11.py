@@ -1,10 +1,7 @@
 def checkNumber(num):
-    if num % 2 == 0:
-        return 'False'
-    else:
-        return 'True'
+    return False if num % 2 == 0 else True
 
 
 print(checkNumber(100))
 print(checkNumber(7))
-print(checkNumber(10.5))
+print(checkNumber(951))

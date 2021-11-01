@@ -1,8 +1,5 @@
-print("შეიყვანეთ რიცხვი: ")
-first = int(input())
-print("შეიყვანეთ რიცხვი: ")
-second = int(input())
-print("შეიყვანეთ რიცხვი: ")
-third = int(input())
+first = int(input("შეიყვანეთ რიცხვი: "))
+second = int(input("შეიყვანეთ რიცხვი: "))
+third = int(input("შეიყვანეთ რიცხვი: "))
 
 print(max(first, second, third))
